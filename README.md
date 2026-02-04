@@ -1,7 +1,7 @@
 # Informe Técnico: Intento de habilitación de virtualización en PC de escritorio HP y migración a WSL
 
 ## Contexto inicial
-- Equipo: PC de escritorio HP con sistema operativo Windows 10 (64 bits).
+- Equipo: PC de escritorio HP con sistema operativo Windows 10 (64 bits, 32 GB de RAM).
 - *Objetivo:* Habilitar Intel Virtualization Technology (VT-x) para ejecutar una máquina virtual Ubuntu en VirtualBox con 2 CPUs y 4096 MB de RAM  
 - *Situación:* El BIOS no mostraba la opción de Virtualization Technology en el menú Advanced, a pesar de que el procesador soporta la función  
 
