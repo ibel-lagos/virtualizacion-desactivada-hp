@@ -27,7 +27,7 @@
   ```bash
   wsl --install
 
-La instalación de WSL permitió continuar con prácticas básicas en Linux, pero no resolvió la limitación original: no fue posible ejecutar máquinas virtuales de 64 bits en VirtualBox debido a la falta de soporte de virtualización en el BIOS. Se realizaron múltiples intentos en PowerShell para habilitar la virtualización, sin éxito, confirmando que la restricción proviene del firmware.
+La instalación de WSL permitió continuar con prácticas básicas en Linux, pero no resolvió la limitación original. Se realizaron múltiples intentos en PowerShell para habilitar la virtualización, sin éxito, confirmando que la restricción proviene del firmware.
 
 ## Conclusión
 - El procesador soporta la virtualización.  
