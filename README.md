@@ -34,7 +34,7 @@
   ```bash
   wsl --install
 
-**-----------------------------------------------------------------------------------------**
+---
 
 ## Lecciones aprendidas
 - Verificar compatibilidad de BIOS/UEFI antes de planear un laboratorio con máquinas virtuales.  
