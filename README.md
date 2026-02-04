@@ -22,17 +22,17 @@
 
 ---
 
-## Conclusión
-- El procesador soporta la virtualización.  
-- El BIOS de la PC de escritorio HP no permite habilitarla.  
-- Esto impide ejecutar máquinas virtuales de 64 bits en VirtualBox.  
-
----
-
 ## Solución implementada
 - Instalación de WSL (Windows Subsystem for Linux) mediante el comando:  
   ```bash
   wsl --install
+
+La instalación de WSL permitió continuar con prácticas básicas en Linux, pero no resolvió la limitación original: no fue posible ejecutar máquinas virtuales de 64 bits en VirtualBox debido a la falta de soporte de virtualización en el BIOS.
+
+## Conclusión
+- El procesador soporta la virtualización.  
+- El BIOS de la PC de escritorio HP no permite habilitarla.  
+- Esto impide ejecutar máquinas virtuales de 64 bits en VirtualBox.  
 
 ---
 
